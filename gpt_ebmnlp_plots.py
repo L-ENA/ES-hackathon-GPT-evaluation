@@ -4,7 +4,7 @@ import plotly.express as px
 
 
 
-df=pd.read_csv('data/ebmnlp.csv').fillna('')
+df=pd.read_csv('data/ebmnlp_evaluated.csv').fillna('')
 
 types=['Participants','Intervention/Control', 'Outcomes']
 if True:
